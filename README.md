@@ -58,6 +58,26 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Setup
+Setting up a new project is quite simple with the Nest CLI. With npm installed, you can create a new Nest project with 
+the following commands in your OS terminal:
+```bash
+$ npm i -g @nestjs/cli
+$ nest new project-name
+```
+
+## NestJS CLI
+```bash
+# Generate
+$ nest g controller 'controllerName'
+$ nest g module 'moduleName'
+$ nest g service 'serviceName'
+$ nest g resource 'resourceName'
+
+# Il parametro --no-spec evita la generazione dei file di test .spec
+$ nest generate controller 'controllerName' --no-spec
+```
+
 ## Validator
 
 ```bash

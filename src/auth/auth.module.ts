@@ -7,13 +7,6 @@ import { APP_GUARD } from '@nestjs/core';
 import { AuthGuard } from './guard/auth.guard';
 
 @Module({
-  // imports: [
-  //   JwtModule.register({
-  //     global: true,
-  //     secret: jwtConstants.secret,
-  //     signOptions: { expiresIn: '60s' },
-  //   }),
-  // ],
   imports: [JwtModule],
   providers: [AuthService /* { provide: APP_GUARD, useClass: AuthGuard }*/], // Registering "AuthGuard" as a global guard Nest will automatically bind "AuthGaurd" to all endpoint.
   controllers: [AuthController],
