@@ -51,6 +51,9 @@ Firebase Authtentication project to use everywhere. To complete the procedure it
   FIREBASE_CLIENT_APP_ID=''
 ```
 
+To learn how to set-up a firebase project follow the link below:
+- https://firebase.google.com/docs/guides
+
 ## Installation
 
 ```bash
