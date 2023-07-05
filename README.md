@@ -26,6 +26,31 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+Firebase Authtentication project to use everywhere. To complete the procedure it's only necessary fill releted fild of the .env file with own firebase credentials:
+
+```bash
+  # FIREBASE - AUTH ADMIN
+  FIREBASE_ADMIN_TYPE=''
+  FIREBASE_ADMIN_PROJECT_ID=''
+  FIREBASE_ADMIN_PRIVATE_KEY_ID=''
+  FIREBASE_ADMIN_PRIVATE_KEY=''
+  FIREBASE_ADMIN_CLIENT_EMAIL=''
+  FIREBASE_ADMIN_CLIENT_ID=''
+  FIREBASE_ADMIN_AUTH_URI=''
+  FIREBASE_ADMIN_TOKEN_URI=''
+  FIREBASE_ADMIN_AUTH_PROVIDER_X509_CERT_URL=''
+  FIREBASE_ADMIN_CLIENT_X509_CERT_URL=''
+  
+  
+  # FIREBASE - AUTH CLIENT
+  FIREBASE_CLIENT_API_KEY=''
+  FIREBASE_CLIENT_AUTH_DOMAIN=''
+  FIREBASE_CLIENT_PROJECT_ID=''
+  FIREBASE_CLIENT_STORAGE_BUCKET=''
+  FIREBASE_CLIENT_MESSAGING_SENDER_ID=''
+  FIREBASE_CLIENT_APP_ID=''
+```
+
 ## Installation
 
 ```bash
